@@ -3,3 +3,54 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: white;
+
+  font: normal 100%/1.5 Georgia,serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  color: black;
+  font-size: 1.1250rem;
+  line-height: 1.3333;
+  text-align: left;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+figcaption {
+  bottom: 0;
+  padding: 0.8em;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+  font-style: bold;
+}
