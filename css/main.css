@@ -97,9 +97,19 @@ img {
     padding: 1em 1em 0 1em;
 }
 
-.signup {
+.startnow {
     text-decoration: none;
-    border: 1rem;
+    font-size: 2rem;
+    color: #3E9E84;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 5px solid #3E9E84;
+    text-decoration: none;
+}
+
+.startnow:hover {
+    color: white;
+    background-color: #3E9E84;
 }
 
 .intro {
@@ -124,6 +134,17 @@ img {
       display: block;
   }
 
+    .bucket {
+     width: 100%;
+    margin: auto;
+    padding: 1em;
+}
+        
+    .bullet {
+    width: 10em;
+}
+
+    
 }
 
 @media only screen and (min-width: 40em) {
@@ -143,9 +164,11 @@ img {
     .top {
     margin-top: 4em;
 }
-
+    
+    
 }
 
 @media only screen and (min-width: 60em) {
+
 
 }
