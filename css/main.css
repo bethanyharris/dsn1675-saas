@@ -16,6 +16,27 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+
+    html {
+        font-size: 110%;
+    }
+}
+    
+@media only screen and (min-width: 90em) {
+
+    html {
+        font-size: 120%;
+    }
+}
+    
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -38,9 +59,8 @@ img {
 .logo {
     margin: 1rem auto 1rem;
     text-align: center;
-    width: 7em;
+    width: 11em;
 }
-
 
 .nav {
     padding: 0;
@@ -72,6 +92,16 @@ img {
     text-align: left;
 }
 
+.xssnav {
+    text-align: center;
+    padding: 1em 1em 0 1em;
+}
+
+.signup {
+    text-decoration: none;
+    border: 1rem;
+}
+
 .intro {
     text-align: center;
 }
@@ -91,7 +121,7 @@ img {
   }
 
     .nav li {
-      display: inline-block;
+      display: block;
   }
 
 }
@@ -106,8 +136,16 @@ img {
         float: right;
   }
 
+    .nav li {
+      display: inline-block;
+  }
+    
     .top {
-    margin-top: 6em;
+    margin-top: 4em;
 }
+
+}
+
+@media only screen and (min-width: 60em) {
 
 }
