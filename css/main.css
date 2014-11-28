@@ -66,6 +66,10 @@ img {
     color: #fff;
 }
 
+.brown {
+    background-color: #F0DCB3;
+}
+
 @media only screen and (min-width: 20em) {
 
     .nav {
