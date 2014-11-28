@@ -36,10 +36,11 @@ img {
 }
 
 .logo {
-    margin: 0 auto 0;
+    margin: 1rem auto 1rem;
     text-align: center;
     width: 7em;
 }
+
 
 .nav {
     padding: 0;
@@ -66,7 +67,20 @@ img {
     color: #fff;
 }
 
-.brown {
+.billboard {
+    padding: 7rem;
+    text-align: left;
+}
+
+.intro {
+    text-align: center;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.tan {
     background-color: #F0DCB3;
 }
 
@@ -91,5 +105,9 @@ img {
     .nav {
         float: right;
   }
+
+    .top {
+    margin-top: 6em;
+}
 
 }
