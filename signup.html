@@ -9,11 +9,6 @@
   <link href="css/typography.css" rel="stylesheet">
 </head>
     
-<body>
-    
-<body id="home">
-<form action="thanks.html" method="post">
-
 <header role="banner" class="masthead">
   <a href="index.html"><img src="images/bound.svg" alt="bound logo" class="logo island-1-2"></a>
   <nav>
@@ -23,16 +18,47 @@
         <li><a class="xssnav" href="signup.html">Sign Up</a></li>
     </ul>
   </nav>
-</header>
+</header>    
+        
+<body id="home">
+<form action="thanks.html" method="post">
+    
+    <div>
+        <label for="name">Name</label>
+        <input id="name">
+    </div>
+    
+    <div>
+        <label for="email">Email</label>
+        <input id="email">
+    </div>
+    
+    <div>
+        <label for="password">Password</label>
+        <input id="password">
+    </div>
+    
+    <div>
+        <label for="password">Confirm Password</label>
+        <input id="password">
+    </div>
+    
+    <div>
+        <label for="membership">Membership Type</label>
+        <select id="membership">
+            <option selected>Select</option>
+            <option>Basic</option>
+            <option>Premium</option>
+            <option>Ultra</option>
+        </select>
+    </div>
+    
+    <div>
+        <button type="submit">Submit</button>
+    </div>
 
-<main id="main" role="main">
-    
-</main>
-<div>
-    <button type="submit">Submit</button>
-</div>
-</main>
-    
+</form>
+
 <footer class="grid island-1-2 tan">
   <div class="unit micro unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
     <p class="copyright push-0">© 2014 Bound Online Portfolio</p>
@@ -46,7 +72,8 @@
       </ul>
     </nav>
   </div>
-</footer>
-
+</footer>    
+    
 </body>    
+
 </html>
