@@ -170,6 +170,41 @@ button:active {
     text-align: center;
 }
 
+label {
+    display:block;
+    width:100%;
+}
+
+ input {
+     width: 100%;   
+}
+
+.join {
+    text-align: center;
+}
+
+.signup-box {
+    text-align: left;
+    width: 100%;
+    border: 5px solid #3E9E84;
+}
+
+
+.return {
+    text-decoration: none;
+    color: #3E9E84;
+}
+
+.signup-pricing {
+    text-align: center;
+}
+
+.box {
+    border: 5px solid #3E9E84;
+    margin: 2em auto;
+    width: 20em;
+}
+
 @media only screen and (min-width: 20em) {
 
 .nav {
@@ -185,6 +220,10 @@ button:active {
     margin: auto;
     padding: 1em;
 }
+    
+.form {
+        margin: 0 2em 0;
+    }
 
 }
 
@@ -206,11 +245,17 @@ button:active {
     .top {
     margin-top: 4em;
 }
- 
     
+    .form {
+        margin: 0 10em 0;
+    }
+            
 }
 
 @media only screen and (min-width: 60em) {
     
-
+    .form {
+        margin: 0 15em 0;
+    }
+    
 }
