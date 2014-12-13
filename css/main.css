@@ -126,12 +126,23 @@ img {
 
 .feature {
     overflow: hidden;
+    display: block;
+    margin: 0 auto 0;
+}
+
+.feature img{
+    float:left;
+    clear:both;
+    
+}
+
+.feature p{
+    float:right;
 }
 
 .bullet {
-    width: 4em;
-    float: left;
-    margin: 1em;
+    width: 5em;
+    margin: 1em auto 1em;
 }
 
 .feature-text {
